@@ -1,5 +1,5 @@
 import random
-from matrix import Matrix
+from classes.matrix import Matrix
 
 matrixClass = Matrix()
 
