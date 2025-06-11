@@ -15,6 +15,8 @@ def check_win(player_symbol):
 def player_move():
     if not hasattr(player_move, "has_run"):
         print("Position of the board:\n1-2-3\n4-5-6\n7-8-9")
+        print("-----")
+        matrixClass.print_game_board()
         player_move.has_run = True
     x_position = input("Where do you wanna put the X? (1-9): ")
 
